@@ -6,6 +6,8 @@
 #include "pre_text/capa.typ"
 #include "pre_text/contracapa.typ"
 #include "pre_text/fichaCatalografica.typ"
+#include "pre_text/bancaExaminadora.typ"
+
 #include "text/introducao.typ"
 #pagebreak()
 #include "text/cap_01.typ"

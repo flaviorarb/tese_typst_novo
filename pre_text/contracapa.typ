@@ -22,9 +22,10 @@
 #align(center)[#upper(autor)]
 #v(1fr)\
 
-#tipoTrabalho()
-
 #align(center)[#upper(titulo)]
+
+#v(1fr)\
+
 #boxFolhaRosto()[
   Tese apresentada ao Programa de Pós-Graduação em Ciências da Linguagem (PPGCL), da Universidade Católica de Pernambuco (UNICAP), como requisito para obtenção do título de Doutor em Ciências da Linguagem.\
 
