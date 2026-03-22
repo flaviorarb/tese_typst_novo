@@ -1,12 +1,29 @@
 
 #import "abntyp/lib.typ": *
-#show: abntcc.with()
 
+
+// Configurações do Template
+#show: abntcc.with(
+  fonte: "Times New Roman", // ou "Arial"
+  arquivo-bibliografia: "referencias.bib", // opcional
+)
 
 #include "pre_text/capa.typ"
 #include "pre_text/contracapa.typ"
 #include "pre_text/fichaCatalografica.typ"
 #include "pre_text/bancaExaminadora.typ"
+#include "pre_text/dedicatoria.typ"
+#include "pre_text/agradecimento_CAPES.typ"
+#include "pre_text/agradecimento.typ"
+#include "pre_text/epigrafe.typ"
+#include "pre_text/resumos.typ"
+#include "pre_text/listaIlustratracoes.typ"
+#include "pre_text/listaTabelas.typ"
+#include "pre_text/listaAbreviaturas.typ"
+// Lista de símbolos (opcional) 
+#include "pre_text/sumario.typ"
+
+// ============== Elementos textuais ================
 
 #include "text/introducao.typ"
 #pagebreak()

@@ -1,4 +1,5 @@
 
 = Referências bibliográfica
 
-#bibliography("referencias.bib")
+
+#bibliography("referencias.bib", style: "associacao-brasileira-de-normas-tecnicas")

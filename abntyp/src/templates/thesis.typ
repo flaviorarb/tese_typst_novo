@@ -27,11 +27,13 @@
   titulo-bibliografia: "REFERÊNCIAS",
   body,
 ) = {
+
+  
   show: with-abnt-setup.with(fonte: fonte)
 
   // Nota: metadados do PDF (title, author) são definidos por dados().
   // Se o usuário não usar dados(), o PDF ficará sem metadados.
-
+ 
   // Conteúdo
   body
 
@@ -45,6 +47,7 @@
 #let pretextual() = {
   counter(page).update(1)
   set page(numbering: none)
+
 }
 
 /// Marca início da parte textual (numeração arábica)
@@ -53,7 +56,12 @@
   set page(
     numbering: "1",
     number-align: top + right,
+
   )
+
+
+  
+
 }
 
 /// Marca início da parte pós-textual
@@ -101,3 +109,5 @@
 // Aliases curtos
 #let dedica = dedicatoria
 #let agradece = agradecimentos
+
+

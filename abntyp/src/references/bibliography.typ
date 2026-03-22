@@ -34,7 +34,7 @@
 
   // Usa o CSL ABNT incluído no pacote
   // O caminho é relativo a este arquivo
-  bibliography(arquivo, style: "abnt.csl", title: none, full: completa)
+ // COMENTEI ESSA LINHA 21/03/2026 --> bibliography(arquivo, style: "abnt.csl", title: none, full: completa)
 }
 
 /// Configura citações para formato ABNT

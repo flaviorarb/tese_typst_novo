@@ -61,9 +61,18 @@
 #let linhaPesquisa = "Aquisição, desenvolvimento e distúrbios da linguagem em suas diversas mantifestações"
 
 // Dados dos examinadores
-#let examInt01 = "Examinador Interno 01"
-#let examInt02 = "Examinador Interno 02"
-#let examInt03 = "Examinador Interno 03"
-#let examExt01 = " "
-#let examExt02 = " "
+#let examInt01 = "Dr.a Roberta Varginha Ramos Caiado"
+#let examInt02 = "Prof. Dr. Antonio Henrique Coutelo de Moraes"
+#let examInt03 = ""
+#let examExt01 = "Prof.ª Dra. Thelma Panerai Alves"
+#let examExt02 = "Prof. Dr. José Moacir Costa Filho"
 #let examExt03 = " "
+
+#let assinatura(nome, instituicao) = {
+  v(0.5cm) // Espaçamento entre assinaturas
+  align(center)[
+    #line(length: 70%, stroke: 1pt + black)
+    #nome \
+    #instituicao
+  ]
+}
