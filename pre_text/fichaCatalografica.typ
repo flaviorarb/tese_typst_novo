@@ -44,30 +44,35 @@
   width: 100%,
   stroke: 1pt,
 )[
-  
-#table(
-  stroke: 0.0pt,
-  columns: (auto, auto),
-  inset: 5pt,
-  align: horizon,
-  table.header(
-    [B277a], [Barros, Flavio Romulo Alexandre do Rego.],
-  ),                          
-  [], [Atenção conjunta digital entre crianças em aquisição da linguagem e um livro interativo digital / Flavio Romulo   Alexandre do Rego Barros, 2024.
+  #figure(
+    grid(
+      stroke: 0.0pt,
+      columns: (auto, auto),
+      //rows: (auto, auto, auto),
+      gutter: 0pt, //espaçamento
+      inset: 5pt,
+      align: left + horizon,
+      [B227a], [Barros, Flavio Romulo Alexandre do Rego.],
+      [], [Atenção conjunta digital entre crianças em aquisição da linguagem e um livro interativo digital / Flavio Romulo   Alexandre do Rego Barros, 2024.
 
-  193 f. : il.
+      193 f. : il.
 
-  Orientador: Renata Fonseca Lima da Fonte.
-  
-  Coorientador: Marianne Carvalho Bezerra Cavalcante.
-  
-  Tese (Doutorado) - Universidade Católica de Pernambuco.\
-  Programa de Pós-graduação em Ciências da Linguagem.\ 
-  Doutorado em Ciências da Linguagem, 2024.],
-  [],[1. Aquisição de linguagem. 2. Livros didáticos digitais.3. Multimodalidade (Linguística). 4. Atenção conjunta. Título.],
-         [],[#align(right)[CDU 800.85]],
-         [],[#align(right)[Pollyanna Alves - CRB/4-1002]],
- )
+      Orientador: Renata Fonseca Lima da Fonte.
+      
+      Coorientador: Marianne Carvalho Bezerra Cavalcante.
+      
+      Tese (Doutorado) - Universidade Católica de Pernambuco.\
+      Programa de Pós-graduação em Ciências da Linguagem.\ 
+      Doutorado em Ciências da Linguagem, 2024.],
+      [],[1. Aquisição de linguagem. 2. Livros didáticos digitais.3. Multimodalidade (Linguística). 4. Atenção conjunta. Título.],
+            [],[#align(right)[CDU 800.85]],
+            [],[#align(right)[Pollyanna Alves - CRB/4-1002]],
+    ),
+    // CONFIGURAÇÕES PARA SUMIR DA LISTA:
+    caption: none,      // Remove o título da legenda
+    outlined: false,    // Tira de qualquer lista (Figuras/Tabelas)
+    numbering: none,    // Impede que o Typst conte +1 no contador de figuras 
+  )
  ]
 // ====================================
 
@@ -78,5 +83,7 @@
 #wrap-content(fig, body)
 
 // ====================================
+
+
 
 #pagebreak()

@@ -2,6 +2,7 @@
 #import "abntyp/lib.typ": *
 
 
+
 // Configurações do Template
 #show: abntcc.with(
   fonte: "Times New Roman", // ou "Arial"

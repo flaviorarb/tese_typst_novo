@@ -1,4 +1,4 @@
-#align(center)[*Agradecimento à CAPES*]
+#align(center)[*AGRADECIMENTO À CAPES*]
 #v(1.5cm)
 
 O presente trabalho foi realizado com apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível

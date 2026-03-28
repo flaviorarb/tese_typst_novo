@@ -15,6 +15,8 @@
       #conteudo
     ]
   )
+ 
+    
   v(1fr) // Espaço opcional para não colar no rodapé
 }
 
@@ -35,12 +37,6 @@
   Linha de Pesquisa: #linhaPesquisa.
 ]
 
-#figure(
-table(
-
-)
-
-)
 
 #align(center)[
 #upper(cidade)\

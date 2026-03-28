@@ -5,14 +5,14 @@
 #figure(
   image("../logo_unicap01.png", width: 30%),
  ) 
- #v(1cm)
+ #v(0.7cm)
 #box(stroke: 0pt + blue, inset: 5pt)[
   #align(center)[#upper(instituicao)]
   #align(center)[#upper(departamento)]
   #align(center)[#upper(programa)]
   #align(center)[#upper(escola)]
   ]
-#v(1fr)
+#v(3cm)
 
 #align(center)[#upper(titulo)]
 #v(1fr)
