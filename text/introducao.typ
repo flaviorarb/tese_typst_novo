@@ -1,4 +1,5 @@
-= Introdução
+= INTRODUÇÃO
+
 A ciência é viva, mutável e inacabada. Um fluído ou um espectro que toma determinadas
 formas de acordo com o momento científico das hipóteses (heurísticas) que estão atuando sobre elas. As teses construídas ao longo do tempo fortalecem as teorias e provocam interlocuções com outras de maior afinidade ou de objetos de estudos semelhantes, contribuindo para a expansão das ciências. Em determinados momentos, o que difere é apenas a perspectiva do pesquisador, assim como disse Saussure “o ponto de vista é que define o objeto” @saussure2012[p. 39] no início do século XX.
 

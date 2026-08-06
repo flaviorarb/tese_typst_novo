@@ -1,12 +1,11 @@
 
-#import "abntyp/lib.typ": *
-
+#import "@preview/abntyp:0.1.5": *
 
 
 // Configurações do Template
-#show: abntcc.with(
+#show: normas-abnt.with(
   fonte: "Times New Roman", // ou "Arial"
-  arquivo-bibliografia: "referencias.bib", // opcional
+ // arquivo-bibliografia: "../pos_text/referencias.bib", // opcional
 )
 
 #include "pre_text/capa.typ"
@@ -41,7 +40,9 @@
 #include "text/cap_06.typ"
 #pagebreak()
 #include "text/conclusao.typ"
+
 #include "pos_text/bibliografia.typ"
+
 
 
 

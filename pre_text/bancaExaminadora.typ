@@ -1,40 +1,79 @@
 #import "../metadados.typ": *
 #import "../abntyp/wrap-it-0.1.1/wrap-it.typ": wrap-content
 
-
-
 #align(center)[#autor]
-#v(1.5cm)
+#v(1cm)
+
 #align(center)[*#titulo*]
-#v(1.5cm)
-Esta #tipoMonografia(1) foi considerada apta para a obtenção do título de #titulacao(1) em Ciências da Linguagem, sendo aprovada em sua redação final pela banca examinadora. #cidade, abril de #ano.
+#v(1cm)
 
-#v(0.5cm)
+Esta #tipoMonografia(1) foi considerada apta para a obtenção do título de #titulacao(1) em Ciências da Linguagem, sendo aprovada em sua redação final pela banca examinadora. 
+#v(0.2cm)
+
 #align(center)[
-    #line(length: 70%, stroke: 1pt + black)
-    #coordenadora\
-    Coordenadora do PPGCL
+    #cidade, 05 abril de #ano.\
 ]
- 
-#v(2.0cm)
+
+#v(0.2cm)
 #align(center)[
+    *Banca Examinadora:*
+]
+
+
+
+
+#text(size: 11pt)[ // Altere aqui o tamanho da fonte (ex: 9pt, 8.5pt, 8pt)
+#grid(
+   columns: (1fr, 1fr), 
+    column-gutter: 2pt, // Espaço horizontal entre as duas colunas
+    row-gutter: 30pt,    // Espaço vertical entre as linhas (diminua mais se precisar)
+
+align(center)[
+     #block(spacing: 0pt, above: 0pt, below: 0pt)[
+    #image("../assets/image/renata.png", height: 30pt)
+    ]
+    #assinatura(orientador, "Universidade Catolica de Pernambuco")
+],
+
+
+align(center)[
+    #block(spacing: 0pt, above: 0pt, below: 0pt)[
+    #image("../assets/image/mariane_.png", height: 30pt)
+    ]
+    #assinatura(coorientador,"Universidade Federal da Paraíba")
+],
+
+
+align(center)[
+     #block(spacing: 0pt, above: 0pt, below: 0pt)[
+    #image("../assets/image/telma.png", height: 30pt)
+    ]
     #assinatura(examExt01, "Universidade Federal de Pernambuco")
-]
+],
 
-#v(0.8cm)
-#align(center)[
+
+align(center)[
+    #block(spacing: 0pt, above: 0pt, below: 0pt)[
+    #image("../assets/image/costa_filho.png", height: 30pt)
+    ]
     #assinatura(examExt02, "Instituto Federal da Paraíba")
-]
+],
 
-#v(0.8cm)
-#align(center)[
+
+align(center)[
+     #block(spacing: 0pt, above: 0pt, below: 0pt)[
+    #image("../assets/image/roberta.png", height: 30pt)
+    ]
    #assinatura(examInt01, "Universidade Católica de Pernambuco")
-]
-#v(0.8cm)
-#align(center)[
+],
+
+align(center)[
+     #block(spacing: 0pt, above: 0pt, below: 0pt)[
+    #image("../assets/image/antonio.png", height: 30pt)
+    ]
     #assinatura(examInt02, "Universidade Católica de Pernambuco")
-]
+],
 
+)]
 
-
-// ****************** FICHA CATALOGRAFICA ******************
+#pagebreak()

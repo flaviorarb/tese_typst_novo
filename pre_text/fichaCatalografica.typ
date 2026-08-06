@@ -77,7 +77,7 @@
 // ====================================
 
 // ****************** ALERTA CRIATIVE COMMONS ******************
-#let fig = (image("../img/by-nc.png", width: 3cm))
+#let fig = (image("../assets/image/by-nc.png", width: 3cm))
 #let body = [Autorizo, exclusivamente para fins acadêmicos e científicos, desde que citada a fonte. Esta licença permite que os usuários distribuam, remixem, adaptem e criem obras derivadas a partir do material em qualquer meio ou formato, exclusivamente para fins não comerciais.]
 
 #wrap-content(fig, body)

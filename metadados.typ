@@ -38,8 +38,8 @@
 #let viceReitor = "Pe. Lúcio Cirne (Vice-Reitor)"
 #let proReitora = "Dr.a Valdenice José Raimundo (Pró-Reitora)"
 #let diretor = "ESCOLA DE EDUCAÇÃO E HUMANIDADES Dr. Danilo Vaz Curado (Diretor)"
-#let coordenadora = "Dr.a Roberta Varginha Ramos Caiado"
-#let viceCoordenadora = "Dr.a Isabela Barbosa do Rêgo Barros"
+#let coordenadora = "Dr.a Roberta Varginha Ramos Caiado (Coorderadora)"
+#let viceCoordenadora = "Dr.a Isabela Barbosa do Rêgo Barros (Vice-coordenadora)"
 
 
 #let departamento = "PRÓ-REITORIA DE PESQUISA, PÓS-GRADUAÇÃO E INOVAÇÃO"

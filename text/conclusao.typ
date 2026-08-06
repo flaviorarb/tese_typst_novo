@@ -82,3 +82,5 @@ Além disso, é fundamental capacitar educadores para o uso eficaz da ACD em sal
 
 Ao abraçarmos a ACD como um paradigma transformador na leitura, estamos construindo um legado para as gerações futuras. Um legado de aprendizagem ativa, engajadora e significativa, onde a tecnologias, a psicologia, a linguística e a pedagogia se unem para criar experiências de leitura que nutrem a mente, o coração e a alma da criança. Esta pesquisa representa apenas o início de uma jornada empolgante. Acreditamos que a ACD tem um potencial inesgotável para revolucionar a leitura e o aprendizado das crianças. Convidamos todos a se unirem a nós nesta jornada, explorando, pesquisando e inovando para construir um futuro em que a leitura seja um farol que ilumina o caminho para o 
 conhecimento, a criatividade e a realização humana.  
+
+#pagebreak()

@@ -121,10 +121,9 @@ No repositório da Biblioteca Digital Brasileira de Teses e Dissertações (BDTD
         ],
       ),
     caption:[Trabalho de monografia produzidos nos repositórios da Capes e do BDTD no último quinquênio (2018-2023)],
+      
   ) 
-
 )
- 
 
 #pagebreak()
 
