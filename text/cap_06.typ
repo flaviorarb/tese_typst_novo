@@ -480,7 +480,7 @@ Após essa análise visual, Rosa inicia sua leitura ereta com os braços cruzado
 
 Essas trocas de postura durante a leitura demonstram engajamento com a história revelando assim cenas de Atenção Conjunta entre Rosa e a história.
 
-O plano do olhar, que faz parte do envelope multimodal, é o primeiro recurso multimodal utilizado por Rosa. Logo no início da leitura de Rosa, foi possível observar o primeiro registro explícito de Atenção Conjunta Digital que se deu no intervalo de tempo (03:18), na linha 3 do @quadro_rosa. Rosa faz uma expressão facial com as extremidades da boca para baixo (num gesto de dúvida), registrando assim a atenção conjunta de verificação, #cite(<tomasello2019>, form: "prose").
+O plano do olhar, que faz parte do envelope multimodal, é o primeiro recurso multimodal utilizado por Rosa. Logo no início da leitura de Rosa, foi possível observar o primeiro registro explícito de Atenção Conjunta Digital que se deu no intervalo de tempo (03:14), na linha 3 do @quadro_rosa. Rosa faz uma expressão facial com as extremidades da boca para baixo (num gesto de dúvida), registrando assim a atenção conjunta de verificação, #cite(<tomasello2019>, form: "prose").
 
 #subpar.grid(
   figure(image("/img/rosa/rosa_ACDa.png", height: 5cm), caption: [
@@ -545,9 +545,9 @@ Em um outro ponto da leitura, Rosa continua externando seu engajamento com a his
   ],
 )
 
-Esse cenário reforça que a garota está em um nível bastante elevado de Atenção Conjunta Digital, pois ela escolhe apertar o botão “entrar na cara e na coragem” e achar graça nessa expressão popular conforme é possível observar na @03c.
+Esse cenário reforça que a garota está em um nível bastante elevado de Atenção Conjunta Digital, pois ela escolhe apertar o botão “entrar na cara e na coragem” e acha graça nessa expressão popular conforme é possível observar na @03c e @03e.
 
-Na linha 6 do @quadro_rosa, três minutos após a expressão do sorriso, novamente Rosa fez a expressão com as extremidades da boca para baixo e levantou a mão direita para cima com as mãos abertas como podemos observar na @04a e @04b, presente no intervalo 09min01s - 09min02s.
+Na linha 6 do @quadro_rosa, três minutos após a expressão do sorriso, novamente Rosa fez a expressão com as extremidades da boca para baixo e levantou a mão direita para cima com as mãos abertas como podemos observar na @04a e @04b, presente no intervalo 09min01s - 09min02s da linha 6.
 
 #subpar.grid(
   figure(image("/img/rosa/rosa_03a.png", height: 5cm), caption: [Gesto facial e com as mãos de Rosa.]), <04a>,
@@ -577,8 +577,8 @@ homem, mas quando você chega mais perto, vê que ela parece com um leão-marinh
 // PPPPPPPPPPPPPPPPPPPPPPPP
 
 #subpar.grid(
-  figure(image("/img/rosa/rosa_03a.png", height: 5cm), caption: [Gesto facial e com as mãos de Rosa.]), <05a>,
-  figure(image("/img/rosa/rosa_thumb_06_l06b.png", height: 5cm), caption: [Gesto Icônico.]), <05b>,
+  figure(image("/assets/imagens/rosa/page 150_1.png", height: 5cm), caption: [Gesto facial e com as mãos de Rosa.]), <05a>,
+  figure(image("/assets/imagens/rosa/page 145_3.png", height: 5cm), caption: [Gesto Icônico.]), <05b>,
 
   columns: (1fr, 1fr),
   // Duas colunas
@@ -588,12 +588,14 @@ homem, mas quando você chega mais perto, vê que ela parece com um leão-marinh
   // Espaçamento entre os itens na Vertical
   stroke: 0.0pt + luma(120),
   // Espessura e cor da borda
-  caption: [Triplo Gesto.],
+  caption: [Gesto de estranheza após ler a descrição do Sr. Gratus.],
   label: <fig:engajamento_rosa>,
   grid.cell(colspan: 2)[
     Fonte: O autor (2024)
   ],
 )
+
+Rosa lê a drescrição do Sr. Gratus [... parei na pagina 150 do pdf]
 
 
 // PPPPPPPPPPPPPPPPPPPP

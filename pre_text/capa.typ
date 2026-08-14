@@ -8,11 +8,14 @@
  ) 
  #v(0.7cm)
 #box(stroke: 0pt + blue, inset: 5pt)[
-  #align(center)[#upper(instituicao)]
-  #align(center)[#upper(departamento)]
-  #align(center)[#upper(programa)]
-  #align(center)[#upper(escola)]
+  #set par(leading: 0.5em)
+  #align(center)[
+    #upper(instituicao) \
+    #upper(departamento) \
+    #upper(programa) \
+    #upper(escola)
   ]
+]
 #v(3cm)
 
 #align(center)[#upper(titulo)]
