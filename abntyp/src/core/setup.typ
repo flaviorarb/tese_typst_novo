@@ -17,10 +17,13 @@
 /// - fonte: família da fonte ("Times New Roman" ou "Arial")
 /// - headings-numeracao: numeração dos headings (padrão: "1.1")
 /// - level-1-pagebreak: se true, headings de nível 1 causam pagebreak (padrão: true)
+/// - suplemento-nivel1: texto usado em referências cruzadas para headings de nível 1
+///   (padrão: "Seção" — correto para artigos; use "Capítulo" para TCC, relatórios e livros)
 #let with-abnt-setup(
   fonte: "Times New Roman",
   headings-numeracao: "1.1",
   level-1-pagebreak: true,
+  suplemento-nivel1: "Seção",
   body,
 ) = {
   // Página A4 com margens ABNT
@@ -34,9 +37,18 @@
     ),
   )
 
-  // Fonte padrão ABNT
+  // Fonte padrão ABNT — com fallbacks para Mac, Windows, Linux e Typst.app.
+  // "New Computer Modern" é embutida no compilador Typst e funciona em qualquer ambiente.
+  let font-stack = if fonte == "Times New Roman" {
+    ("Times New Roman", "Times", "Linux Libertine", "New Computer Modern")
+  } else if fonte == "Arial" {
+    ("Arial", "Helvetica", "Liberation Sans", "Linux Biolinum", "Noto Sans")
+  } else {
+    (fonte,)
+  }
+
   set text(
-    font: fonte,
+    font: font-stack,
     size: 12pt,
     lang: "pt",
     region: "BR",
@@ -56,6 +68,8 @@
 
   // Headings conforme NBR 6024:2012
   set heading(numbering: headings-numeracao)
+  show heading: set heading(supplement: "Seção")
+  show heading.where(level: 1): set heading(supplement: suplemento-nivel1)
 
   // Seção primária (nível 1): MAIÚSCULAS, negrito
   show heading.where(level: 1): it => {

@@ -30,7 +30,7 @@ Esta #tipoMonografia(1) foi considerada apta para a obtenção do título de #ti
 
 align(center)[
      #block(spacing: 0pt, above: 0pt, below: 0pt)[
-    #image("../assets/image/renata.png", height: 30pt)
+    #image("../assets/assinaturas/renata.png", height: 30pt)
     ]
     #assinatura(orientador, "Universidade Catolica de Pernambuco")
 ],
@@ -38,7 +38,7 @@ align(center)[
 
 align(center)[
     #block(spacing: 0pt, above: 0pt, below: 0pt)[
-    #image("../assets/image/mariane_.png", height: 30pt)
+    #image("../assets/assinaturas/mariane.png", height: 30pt)
     ]
     #assinatura(coorientador,"Universidade Federal da Paraíba")
 ],
@@ -46,7 +46,7 @@ align(center)[
 
 align(center)[
      #block(spacing: 0pt, above: 0pt, below: 0pt)[
-    #image("../assets/image/telma.png", height: 30pt)
+    #image("../assets/assinaturas/telma.png", height: 30pt)
     ]
     #assinatura(examExt01, "Universidade Federal de Pernambuco")
 ],
@@ -54,7 +54,7 @@ align(center)[
 
 align(center)[
     #block(spacing: 0pt, above: 0pt, below: 0pt)[
-    #image("../assets/image/costa_filho.png", height: 30pt)
+    #image("../assets/assinaturas/costa_filho.png", height: 30pt)
     ]
     #assinatura(examExt02, "Instituto Federal da Paraíba")
 ],
@@ -62,14 +62,14 @@ align(center)[
 
 align(center)[
      #block(spacing: 0pt, above: 0pt, below: 0pt)[
-    #image("../assets/image/roberta.png", height: 30pt)
+    #image("../assets/assinaturas/roberta.png", height: 30pt)
     ]
    #assinatura(examInt01, "Universidade Católica de Pernambuco")
 ],
 
 align(center)[
      #block(spacing: 0pt, above: 0pt, below: 0pt)[
-    #image("../assets/image/antonio.png", height: 30pt)
+    #image("../assets/assinaturas/antonio.png", height: 30pt)
     ]
     #assinatura(examInt02, "Universidade Católica de Pernambuco")
 ],

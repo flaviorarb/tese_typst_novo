@@ -1,6 +1,6 @@
 
 = Referências bibliográfica
 
- #bibliography("referencias.bib", style: "associacao-brasileira-de-normas-tecnicas", full:true)
+ #bibliography("referencias.bib", style: "../abntyp/src/references/abnt.csl")
 
  //#bibliography("referencias.yml")

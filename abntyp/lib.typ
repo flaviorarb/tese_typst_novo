@@ -90,7 +90,3 @@
 #import "src/templates/technical-report.typ": *  // NBR 10719:2015 - Relatorio tecnico
 #import "src/templates/poster.typ": *  // NBR 15437:2006 - Posteres tecnicos e cientificos
 #import "src/templates/slides.typ": *  // Apresentacoes de slides (SEM NORMA ABNT - boas praticas)
-
-
-
-// ***************************** 

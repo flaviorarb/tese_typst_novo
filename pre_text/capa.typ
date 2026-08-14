@@ -4,7 +4,7 @@
 
 #figure(
   numbering: none,  // <- Não conta
-  image("../assets/image/logo_unicap01.png", width: 30%),
+  image("../assets/imagens/logo_unicap01.png", width: 30%),
  ) 
  #v(0.7cm)
 #box(stroke: 0pt + blue, inset: 5pt)[

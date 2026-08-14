@@ -38,7 +38,6 @@
 #include "text/cap_05.typ"
 #pagebreak()
 #include "text/cap_06.typ"
-#pagebreak()
 #include "text/conclusao.typ"
 
 #include "pos_text/bibliografia.typ"
