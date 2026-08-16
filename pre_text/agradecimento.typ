@@ -10,7 +10,7 @@ Aos meus filhos, Gabriel e Miguel, os responsáveis pelo meu crescimento como se
 
 Às minhas sobrinhas, Maitê, Marina e Violeta, e ao meu sobrinho, Raul, que foram fundamentais na construção deste trabalho.
 
-À minha orientadora, Renata Fonseca Lima da Fonte, e à minha coorientadora, Marianne Carvalho Bezerra Cavalcante, pela paciência e pelos conselhos valiosos que me forjaram um acadêmico e pesquisador ainda melhor.
+À minha orientadora, Renata Fonseca Lima da Fonte, e à minha coorientadora Marianne Carvalho Bezerra Cavalcante, pela paciência e pelos conselhos valiosos que me forjaram um acadêmico e pesquisador ainda melhor.
 
 À coordenadora do PPGCL, Prof.ª Dr.ª Roberta Varginha Caiado, pelo constante suporte institucional.
 

@@ -26,10 +26,9 @@
 
 #show heading.where(level: 2): set text(red)
 
+#heading(level: 1, numbering: none)[CAPÍTULO I] 
 
-
-= CAPÍTULO I <sec:cap_01>
-== O ESTADO DA ARTE SOBRE OS ESTUDOS DA ATENÇÃO CONJUNTA
+= O ESTADO DA ARTE SOBRE OS ESTUDOS DA ATENÇÃO CONJUNTA <sec:cap_01> 
 
 // #set heading(offset: 1)
 
@@ -37,7 +36,7 @@ Este capítulo apresenta estudos abrangentes realizados em diversas áreas de pe
 Foram investigadas as principais descobertas, técnicas, teorias e abordagens relacionadas aos contextos acadêmicos. Dessa forma, reunimos os estudos mais recentes e significativos sobre Atenção Conjunta, visando oferecer uma visão mais abrangente e atualizada, refletindo sobre as últimas descobertas no Brasil e no mundo. No desfecho desta seção, apresentamos a cartografia dos estudos da atenção conjunta apenas no Brasil, como parte integrante do processo
 de estudo da arte.
 
-=== O PANORAMA DOS ESTUDOS SOBRE ATENÇÃO CONJUNTA NO BRASIL
+== O PANORAMA DOS ESTUDOS SOBRE ATENÇÃO CONJUNTA NO BRASIL
 
 Elaboramos um estado da arte a partir de um levantamento bibliográfico das pesquisas nacionais realizadas no último decênio (2013-2023), com foco nos trabalhos nacionais em língua portuguesa, por meio de 4 ferramentas de busca: Biblioteca Digital Brasileira de Teses e Dissertações (BDTD); Catálogo de Teses e Dissertações da CAPES; Portal de periódicos da CAPES; Portal do Scielo. A escolha por essas ferramentas deve-se ao fato de as duas primeiras apresentarem resultados que se referem às pesquisas no formato Tese ou Dissertação; já as demais ferramentas permitem encontrar trabalhos no formato artigo científico, não escolhemos o Google Acadêmico por ser um motor de buscas de qualquer palavra em qualquer banco de dados, inclusive os bancos acima citados.
 
@@ -154,7 +153,7 @@ Após analisar teses e dissertações de Programas de Pós-Graduação Stricto S
   table(  
     stroke: 1pt,
     columns: (auto, auto, auto),
-    inset: 7pt,
+    inset: 6pt,
     // Alinhamento por coluna: 1ª à esquerda, 2ª e 3ª ao centro
     align: (left + horizon, center + horizon, center + horizon),  
 // Cabeçalho
@@ -219,13 +218,13 @@ A seguir temos uma tabela que contém os dados pesquisados sobre a Atenção Con
 
 #pagebreak()
 
-#set text(size: 11pt)
-
+ //#set text(size: 12pt)
 #rotate(
   -90deg,
   reflow: true, // rotacionar a Tabela
 
   figure(
+    
         table(
           //columns: (5cm,2cm, 1cm, auto, 2cm, 1cm, auto, ..(auto,) * 12),
           columns: (5cm,1.7cm, 1cm, 1cm, 1.7cm, 1cm, 1cm,1.7cm, 1cm, 1cm, 1.7cm, 1cm, 1cm, 1.7cm, 1cm, 1cm, 1.7cm, 1cm, 1cm,  ),
@@ -279,9 +278,9 @@ A seguir temos uma tabela que contém os dados pesquisados sobre a Atenção Con
       ),
     caption:[Trabalho de monografia produzidos nos repositórios da Capes e do BDTD no último quinquênio (2018-2023)], 
   )
-
 ) 
-//#pagebreak()
+
+#pagebreak()
 
 A Atenção Conjunta é um tópico de pesquisa interdisciplinar que é estudado em várias
 áreas do conhecimento, incluindo psicologia @albuquerque2021 @colus2012 @braz_salomao2002; educação @foscarini2013 @aquino2018 @kelleter2020 @caliman2020 @kastrup2022; informática da educação @cimadevila2021;fonoaudiologia @borsato2010 @boas2014 @boas2017 entre outras, desta forma o estado da arte a nivel mundial revela que o número de artigos que falam sobre atenção conjunta é muito grande e está em constante crescimento. Porém a Tabela 2 revela que os números totais de
@@ -340,7 +339,7 @@ Os dados referentes às monografias distribuídas pelo Brasil serão analisados 
   align: center,
   [
     #figure(
-      align(center, image("../assets/imagens/figura_02.png", width: 75%)),
+      align(center, image("../assets/imagens/figura_02.png", width: 60%)),
       caption: [Dashboard AC das monografias no Brasil.],
     ) <fig:Dashboard_AC_das_monografias_no_Brasil>
   ],
@@ -348,6 +347,7 @@ Os dados referentes às monografias distribuídas pelo Brasil serão analisados 
     #text(size: 0.85em)[Fonte: O autor (2024).]
   ]
 )
+#v(0.5cm)
 
 A primeira @fig:Cartografia_das_monografias_no_Brasil, apresentada a seguir, ilustra o mapa dos Estados brasileiros e destaca, por meio de um espectro de cores com tonalidades de azul, quais Estados da federação têm uma produção mais expressiva de trabalhos envolvendo a Atenção Conjunta.
 

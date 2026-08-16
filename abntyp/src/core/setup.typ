@@ -22,7 +22,7 @@
 #let with-abnt-setup(
   fonte: "Times New Roman",
   headings-numeracao: "1.1",
-  level-1-pagebreak: true,
+  level-1-pagebreak: false, // true deixa padrão ABNT 
   suplemento-nivel1: "Seção",
   body,
 ) = {
@@ -70,7 +70,7 @@
   set heading(numbering: headings-numeracao)
   show heading: set heading(supplement: "Seção")
   show heading.where(level: 1): set heading(supplement: suplemento-nivel1)
-
+// *********************************************************
   // Seção primária (nível 1): MAIÚSCULAS, negrito
   show heading.where(level: 1): it => {
     if level-1-pagebreak { pagebreak(weak: true) }
@@ -84,6 +84,7 @@
     ]
     v(1.5em)
   }
+//*********************************************************
 
   // Seção secundária (nível 2): MAIÚSCULAS, regular
   show heading.where(level: 2): it => {

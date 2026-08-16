@@ -70,7 +70,7 @@
   set heading(numbering: "1.1")
 
   show heading.where(level: 1): it => {
-    pagebreak(weak: true)
+   pagebreak(weak: true)
     v(1.5em)
     text(weight: "bold", size: 12pt)[
       #if it.numbering != none {
