@@ -1,3 +1,7 @@
+#import "@preview/tablex:0.0.8": tablex
+#import "@preview/subpar:0.2.2"
+#show figure: set block(breakable: true)
+#show figure: set figure(gap: 15pt)
 
 // 1. Define que a legenda (caption) ficará no topo (top)
 
@@ -22,7 +26,9 @@
 
 #show heading.where(level: 2): set text(red)
 
-= CAPÍTULO I 
+
+
+= CAPÍTULO I <sec:cap_01>
 == O ESTADO DA ARTE SOBRE OS ESTUDOS DA ATENÇÃO CONJUNTA
 
 // #set heading(offset: 1)
@@ -136,9 +142,7 @@ atenção conjunta digital, comprovando o nível ineditismo desta tese, além de
 
 Os trabalhos de mestrado e doutorado de Costa Filho, produzidos respectivamente em 2011 e 2016 foram identificados como sendo trabalhos exclusivos quando o assunto é a atenção conjunta relacionado ao meio virtual. Como foi observado apenas esse único trabalho registrado em 2016, tomei a liberdade de realizar uma outra pesquisa sem delimitar o tempo, fora do período do decênio proposto nesta tese.
 
-Assim, o tema "Atenção Conjunta Virtual" registrou apenas um trabalho em ambos os repositórios de buscas nacionais: o Catálogo de Teses e Dissertações da CAPES e a Biblioteca Digital Brasileira de Teses e Dissertações. Esse trabalho, de autoria de Costa Filho (2016) da Universidade Federal da Paraíba, é uma tese intitulada “Atenção Conjunta: O Jogo da Referência na Realidade Virtual”. Nesta tese, Costa Filho apresenta um aplicativo para smartphone chamado MIMI. O objetivo da tese era verificar “como o processo de atenção conjunta se constitui na interação da criança com o ambiente virtual representado pelo jogo Mimi©” #cite<costa_filho2016> 
-
-<> costa_filho2016[p. 21].
+Assim, o tema "Atenção Conjunta Virtual" registrou apenas um trabalho em ambos os repositórios de buscas nacionais: o Catálogo de Teses e Dissertações da CAPES e a Biblioteca Digital Brasileira de Teses e Dissertações. Esse trabalho, de autoria de Costa Filho (2016) da Universidade Federal da Paraíba, é uma tese intitulada “Atenção Conjunta: O Jogo da Referência na Realidade Virtual”. Nesta tese, Costa Filho apresenta um aplicativo para smartphone chamado MIMI. O objetivo da tese era verificar “como o processo de atenção conjunta se constitui na interação da criança com o ambiente virtual representado pelo jogo Mimi©” @costa_filho2016[p. 21].
 
 Os trabalhos sobre Atenção Conjunta produzidos no Nordeste revelam essa região como um centro de referência nessa temática, pois representam 75% de todas as monografias pesquisadas. Foram encontradas 11 publicações da UFPB e 1 trabalho publicado na UNICAP. Os outros trabalhos foram encontrados na região Sudeste, com 2 trabalhos em São Paulo e 1 trabalho desenvolvido pela Universidade de Juiz de Fora. Na próxima seção, será discutida de forma mais aprofundada como a atenção conjunta está distribuída no Brasil.
 
@@ -211,7 +215,7 @@ A Scopus é uma plataforma on-line, de acordo com o Portal de Periódicos da Cap
 
 A Web of Science também é uma base de dados de informações bibliográficas e citações dispostas em uma plataforma on-line. Ela oferece acesso a uma ampla gama de informações, incluindo artigos de periódicos, livros, conferências, relatórios técnicos, patentes e muito mais. O Web of Science tem um amplo alcance e em várias disciplinas, incluindo ciência, tecnologias, medicina, ciências sociais e artes e humanidades. É conhecido por sua capacidade de fornecer informações altamente precisas e atualizadas para a pesquisa acadêmica.
 
-A seguir temos uma tabela que contém os dados pesquisados sobre a Atenção Conjunta no mundo, para isso pesquisamos nas três maiores bases de dados mundiais, descritas anteriormente, nelas é possível compreender qual é o papel da Atenção Conjunta na área da Linguística. Utilizamos sete descritores, praticamente os mesmos que foram utilizados na pesquisa no Brasil. É importante salientar que o termo multimodality não teve registro na base de dados da Scopus, então escolhemos um termo sinônimo multimodal, esse termo contempla do campo semântico do termo procurado, uma vez que o multimodal e multimodality são utilizados por Kress & Van Leeuwen (#cite<vanleeuwen2011>, form: "year").  
+A seguir temos uma tabela que contém os dados pesquisados sobre a Atenção Conjunta no mundo, para isso pesquisamos nas três maiores bases de dados mundiais, descritas anteriormente, nelas é possível compreender qual é o papel da Atenção Conjunta na área da Linguística. Utilizamos sete descritores, praticamente os mesmos que foram utilizados na pesquisa no Brasil. É importante salientar que o termo multimodality não teve registro na base de dados da Scopus, então escolhemos um termo sinônimo multimodal, esse termo contempla do campo semântico do termo procurado, uma vez que o multimodal e multimodality são utilizados por #cite(<kress2003>, form: "year") e #cite(<vanleeuwen2011>, form: "year").
 
 #pagebreak()
 
@@ -278,3 +282,276 @@ A seguir temos uma tabela que contém os dados pesquisados sobre a Atenção Con
 
 ) 
 //#pagebreak()
+
+A Atenção Conjunta é um tópico de pesquisa interdisciplinar que é estudado em várias
+áreas do conhecimento, incluindo psicologia @albuquerque2021 @colus2012 @braz_salomao2002; educação @foscarini2013 @aquino2018 @kelleter2020 @caliman2020 @kastrup2022; informática da educação @cimadevila2021;fonoaudiologia @borsato2010 @boas2014 @boas2017 entre outras, desta forma o estado da arte a nivel mundial revela que o número de artigos que falam sobre atenção conjunta é muito grande e está em constante crescimento. Porém a Tabela 2 revela que os números totais de
+artigos encontrados nas bases de dados são na sua maioria pesquisas voltadas para o campo da psicologia e para os estudos sobre TEA.
+
+Números aproximados encontrados de artigos científicos no banco de dados da PubMed
+(https://pubmed.ncbi.nlm.nih.gov/), revelam que, aproximadamente, mais de 15.000 artigos foram publicados na área de Psicologia tendo em segundo lugar a Neurociência que contém quase 50% dos mesmo de artigos, chegando a 6.000 artigos.
+Na área da linguística, as pesquisas sobre atenção conjunta representam apenas 17% dos trabalhos encontrados, no último decênio, esse número vai para 19%, na base da Scopus. Na Web of Science, esse número de trabalhos relacionados à linguística cai quase pela metade sendo apenas 9% do total.
+
+
+#grid(
+  rows: (auto, 0.5cm),
+  align: center,
+  [
+    #figure(
+      image("../assets/imagens/figura_01.png", width: 100%),
+      caption: [Área do conhecimento distribuída em percentil.],
+    )<fig:area_conheciemento_ac>
+  ],
+  [],
+  [Fonte: Scopus - Plataforma on-line.],
+) 
+
+As pesquisas internacionais demonstram que o tema atenção conjunta também tem uma
+atuação maior, assim como no Brasil, na área da Psicologia. As pesquisas internacionais ainda
+trazem em segundo lugar a área da Medicina e em terceiro lugar Ciências da Computação, como é possível observar na figura @fig:area_conheciemento_ac.
+
+Na Scopus, as pesquisas nas áreas das Ciências Sociais foram posicionadas em 4º lugar com uma participação de 12,2%, muito próximo dos 12,4% da Ciências da Computação, mas não foram registrados números que tivessem relação com a linguística.
+
+Em relação ao termo Atenção Conjunta Virtual há um único registro presente nas duas plataformas, porém é necessário fazer uma ressalva, existe um artigo com o título “Joint Attention Virtual Classroom: A Preliminary Study”, mas ele não trata do tema ACV. De acordo com o título do artigo, os motores de busca registraram apenas esse texto como se fosse a concatenação da expressão “Joint Attention Virtual”, todavia a tradução livre para o português refere-se a (Atenção conjunta na sala de aula virtual: um estudo preliminar) uma pesquisa que
+envolve atividades desenvolvidas em sala de aulas virtuais e nelas são trabalhados os recursos da atenção conjunta. Desta forma, consideramos que não existam trabalhos sobre atenção conjunta virtual em língua estrangeira, portanto só há, no mundo, o pesquisador prof. Dr. José Moacir Soares da Costa Filho do Instituto Federal da Paraíba que trata sobre o tema da Atenção Conjunta Virtual. Este tema da ACV será tratado mais adiante nesta pesquisa.
+
+== A CARTOGRAFIA DA ATENÇÃO CONJUNTA
+
+Nesta seção, exploraremos uma análise cartográfica da Atenção Conjunta no Brasil e no mundo, utilizando os dados coletados durante a elaboração do estudo da arte desta tese. 
+
+Antes de iniciarmos, é fundamental compreendermos o que é a cartografia e qual é a sua utilização no campo da linguística. Sendo assim a cartografia pode ser definida como um ramo da geografia que tem como objeto de estudo os mapas e sua descrição. Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), a cartografia é compreendida “como a representação geométrica plana, simplifica-da e convencional de toda a superfície terrestre ou de parte desta, apresentada através de mapas, cartas ou plantas.” (IBGE, 2023).
+
+Baseado nos estudos da geografia, o conceito de cartografia passou a englobar, de acordo com Ataide (#cite(<ataide2019>, form: "year")) não apenas a representação espacial, mas também se estendeu à perspectiva discursiva, sinalizando o mapeamento de ideias em diversas esferas do conhecimento antropológico.
+
+E não foi diferente com os estudos linguísticos que passaram a utilizar não só o termo como também a desenvolver pesquisas de mapeamento linguístico. O termo cartografia ou "mapeamento" é utilizado de maneira mais ampla, não apenas para descrever a representação visual de espaços geográficos, mas também para indicar a representação de ideias e fenômenos em diversas áreas do saber.
+
+Nos estudos linguísticos, o mapeamento linguístico refere-se à representação e análise visual de elementos linguísticos, como palavras, conceitos e relações semânticas. Pode envolver a criação de mapas conceituais, diagramas ou gráficos para ilustrar a estrutura e as interconexões entre elementos linguísticos.
+
+Essa abordagem de mapeamento linguístico pode ser útil em várias áreas, como estudos culturais, análise de discurso, sociolinguística e até mesmo na compreensão de padrões de mudança linguística ao longo do tempo. Ao representar visualmente dados linguísticos, os pesquisadores podem identificar padrões, relações e tendências regionais que podem não ser imediatamente evidentes em uma análise puramente textual.
+
+Assim, a cartografia linguística amplia a aplicação dos princípios cartográficos para além da geografia física, proporcionando uma abordagem visual e espacial para a compreensão e representação de fenômenos linguísticos.
+
+Os dados referentes às monografias distribuídas pelo Brasil serão analisados a partir da imagem do dashboard da @fig:Dashboard_AC_das_monografias_no_Brasil contendo 10 gráficos que retratam as pesquisas acadêmicas no país. 
+
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      align(center, image("../assets/imagens/figura_02.png", width: 75%)),
+      caption: [Dashboard AC das monografias no Brasil.],
+    ) <fig:Dashboard_AC_das_monografias_no_Brasil>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+
+A primeira @fig:Cartografia_das_monografias_no_Brasil, apresentada a seguir, ilustra o mapa dos Estados brasileiros e destaca, por meio de um espectro de cores com tonalidades de azul, quais Estados da federação têm uma produção mais expressiva de trabalhos envolvendo a Atenção Conjunta.
+
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      align(center, image("../assets/imagens/figura_03.png", width: 80%)),
+      caption: [Cartografia das monografias no Brasil.],
+    ) <fig:Cartografia_das_monografias_no_Brasil>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+#v(0.5cm)
+
+As cores com tonalidade mais claras são os Estados com menor produção e os Estados com as tonalidades mais escuras de azul são os que mais produziram. Pela imagem é possível observar que o Estado que mais produziu trabalhos voltados ao tema Atenção Conjunta foi a
+Paraíba.
+
+Um outro ponto bastante interessante a ser destacado é que todas as cinco regiões do país apresentam registros de trabalhos sobre o tema. No entanto, é nas regiões Nordeste e Sudeste que encontramos a concentração mais significativa de monografias relacionadas ao assunto.
+
+A @fig:Tipos_de_monografias_no_Brasil traz os tipos e quantitativo de monografias encontradas nos dois maiores bancos de dados de teses e dissertações do país.
+
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      align(center, image("../assets/imagens/figura_04.png", width: 80%)),
+      caption: [Tipos de monografias no Brasil.],
+    ) <fig:Tipos_de_monografias_no_Brasil>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+#v(0.5cm)
+
+Os dados revelam que foram produzidos 81 trabalhos produzidos, 43 dissertações de mestrado, 34 de doutorado e 1 profissionalizante. Foram 26 trabalhos na base da Capes, 22 no BDTD e 33 simultâneo nas duas plataformas.
+
+A próxima figura mostra o quantitativo de monografias distribuídas pelas 5 regiões do Brasil.
+
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      align(center, image("../assets/imagens/figura_05.png", width: 80%)),
+      caption: [Quantitativo de monografias por região.],
+    ) <fig:Quantitativo_de_monografias_por_região>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+#v(0.5cm)
+
+Na @fig:Quantitativo_de_monografias_por_região, podemos observar que as regiões nordeste e sudeste foram as regiões que mais concentraram trabalhos envolvendo o tema da Atenção Conjunta. A região Nordeste teve uma pequena vantagem em relação ao Sudeste, foram 41,98% contra 38,27% do total dos trabalhos.
+
+Um outro dado muito importante foi o registro das instâncias, ou seja, quantas vezes, na monografia, o termo composto Atenção Conjunta foi encontrado. Esse tipo de análise é muito importante pois afere o grau de relevância da tese ou dissertação.
+
+
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      align(center, image("../assets/imagens/figura_06.png", width: 85%)),
+      caption: [Os 10 trabalhos mais relevante sobre Atenção Conjunta.],
+    ) <fig:Os_10_trabalhos_mais_relevante_sobre_Atencao_Conjunta>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+#v(0.5cm)
+
+Na @fig:Os_10_trabalhos_mais_relevante_sobre_Atencao_Conjunta acima, é possível perceber a importância dos primeiros 10 trabalhos,especialmente os três primeiros provenientes da Universidade Federal da Paraíba, que
+apresentam números expressivos, com mais de 500 registros do termo "Atenção Conjunta". A liderança nesse quesito é atribuída à pesquisadora Renata Fonseca Lima da Fonte (#cite(<fonte2011>, form: "year")), que encabeça a lista com impressionantes 839 registros, seguida por José Moacir Soares da Costa Filho em segundo lugar, com 835 registros, e Glória Maria Leitão de Souza Melo em terceiro,
+com 639 registros.
+
+A pesquisa revela também a presença de 21 monografias com menos de 10 registros,sendo 17 delas com apenas 5 registros. Esses dados demonstraram que não havia relevância ao tema Atenção Conjunta, muitas vezes era apenas uma citação isolada. No entanto, destaca-se a importância de uma abordagem cartográfica, que não apenas analise a temática, mas também quantifique as instâncias, permitindo que os pesquisadores se concentrem em trabalhos mais
+substanciais tanto em termos temáticos quanto quantitativos.
+
+Outro aspecto relevante abordado nesta pesquisa é a análise dos orientadores, com a @fig:Quantitativos_de_monografias_por_orientador_no_Brasil fornecendo dois gráficos complementares que delineiam a participação desses orientadores na temática da Atenção Conjunta. Essa abordagem enriquece a compreensão da distribuição do conhecimento e evidencia os orientadores que se destacam nesse campo específico, oferecendo uma visão mais abrangente e aprofundada sobre a produção acadêmica relacionada à Atenção Conjunta.
+
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      align(center, image("../assets/imagens/figura_07.png", width: 100%)),
+      caption: [Quantitativos de monografias por orientador no Brasil.],
+    ) <fig:Quantitativos_de_monografias_por_orientador_no_Brasil>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+#v(0.5cm)
+
+Os gráficos revelam o papel proeminente da professora Marianne Carvalho Bezerra Cavalcante, coordenadora do LAFE - Laboratório de Aquisição da Fala e da Escrita da UFPB,na orientação de trabalhos sobre a temática da Atenção Conjunta. Com 18 monografias em seu nome, ela lidera a lista, representando impressionantes 22,8% de todos os trabalhos registrados no Brasil sobre esse tema específico. A magnitude dessa contribuição é ainda mais notável ao
+ser comparada com o segundo colocado, que teve apenas 5 trabalhos, situando a professora Marianne em uma posição de destaque com uma diferença significativa de 360%.
+
+Além disso, esses dados estão em sintonia com um gráfico subsequente que evidencia a liderança do Estado da Paraíba, especialmente da Universidade Federal da Paraíba (UFPB), nas pesquisas relacionadas à Atenção Conjunta em nível nacional. Essa análise comparativa e a consistência entre diferentes conjuntos de dados fortalecem a conclusão de que as pesquisas desenvolvidas LAFE/UFPB desempenham um papel crucial na produção e orientação de pesquisas nesse campo específico, consolidando o impacto da instituição e da pesquisadora nesse domínio acadêmico.
+
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      align(center, image("../assets/imagens/figura_08.png", width: 60%)),
+      caption: [Participação das instituições no Estudo AC.],
+    ) <fig:Participacao_das_instituicoes_no_Estudo_AC>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+#v(0.5cm)
+
+Na @fig:Participacao_das_instituicoes_no_Estudo_AC é possível perceber que a UFPB é líder na produção de monografias,apresentando impressionantes 28 trabalhos, dos quais 15 são doutorados e 13 são mestrados. Essa marca coloca a UFPB em uma posição destacada, já que supera o segundo colocado em mais de 300%, evidenciando sua proeminência no campo.
+
+Ademais, ao analisar os números em uma escala nacional, a UFPB se destaca como uma potência na produção acadêmica relacionada à Atenção Conjunta, representando significativos 34,57% de todas as monografias sobre o tema em todo o país. Esse dado ressalta não apenas a qualidade, mas também a quantidade de contribuições da UFPB para o conhecimento nesse domínio específico, consolidando sua posição como uma instituição líder na pesquisa e
+produção científica relacionada à Atenção Conjunta no cenário acadêmico brasileiro.
+
+Por fim, as análises constataram a tipicidade das monografias, evidenciando um equilíbrio notável nas pesquisas, conforme observado na @fig:Tematicas_de_pesquisa_sobre_AC. Os dados revelam que quase metade, precisamente 49,4%, das monografias estão direcionadas a temáticas que abordam alguma forma de alteração de linguagem. Esse dado, por si só, ressalta a significativa relevância e atenção dada a questões relacionadas à linguagem nas pesquisas acadêmicas.
+
+#v(0.5cm)
+#subpar.grid(
+  // Primeira linha: Linha inteira (colspan: 2)
+  grid.cell(colspan: 2)[
+    #figure(
+      image("../assets/imagens/figura_09.png", height: 5cm), 
+      caption: [Os 10 tipos de pesquisa.]
+    ) <figura_09a>
+  ],
+
+  // Segunda linha: Duas colunas lado a lado
+  figure(
+    image("../assets/imagens/figura_09a.png", height: 5cm), 
+    caption: [Frequência por tipicidade (Típico vs. Atípico)]
+  ), <figura_09b>,
+
+  figure(
+    image("../assets/imagens/figura_09b.png", height: 5cm), 
+    caption: [Percentil das tipicidade em monografias.]
+  ), <figura_09c>,
+
+  // Configurações do Grid
+  columns: (1fr, 1fr),
+  gutter: 1pt,
+  row-gutter: 10pt,
+  stroke: 0.0pt + luma(120),
+  caption: [Temáticas de pesquisa sobre AC.],
+  label: <fig:Tematicas_de_pesquisa_sobre_AC>,
+  grid.cell(colspan: 2)[
+    #align(center)[Fonte: O autor (2024)]
+  ]
+)
+#v(0.5cm)
+
+Na @figura_09a, detalham-se as principais temáticas recorrentes. Destaca-se o Autismo como a temática atípica de maior prevalência, representando $14,81\%$ dos registros ($n=12$), seguida pela Surdez com $6,17\%$ ($n=5$). Entre os estudos focados no desenvolvimento típico, sobressaem-se as investigações sobre Interação Mamãe/Bebê e Práticas Multimodais e Atenção Conjunta na Aquisição de Linguagem, ambas correspondendo a $2,47\%$ dos trabalhos ($n=2$ cada).Como evidenciado nos gráficos de frequência e proporção (@figura_09b e @figura_09c), observa-se um equilíbrio notável na distribuição dos trabalhos.
+
+Dentro do escopo das pesquisas que contemplaram contextos atípicos, é notável observar que as pesquisas voltadas para a linguagem e autismo representam um terço desse tipo específico de pesquisa, indicando um interesse substancial nessa área específica. Essa abordagem mais específica enriquece a compreensão das nuances e desafios associados à relação entre linguagem e autismo.
+
+Por outro lado, os estudos que consideram os padrões típicos de linguagem representam
+a parcela restante, totalizando 50,6%. Essa inclusão de trabalhos que exploram os padrões
+“normais” de linguagem complementa a perspectiva global, fornecendo uma visão abrangente
+do cenário de pesquisa na área linguística.
+
+Em síntese, os resultados destacam a significativa contribuição da UFPB para a
+produção acadêmica relacionada à Atenção Conjunta, tanto em termos de qualidade quanto de
+quantidade, consolidando sua posição como uma instituição líder nesse campo de pesquisa no
+Brasil. Além disso, a análise das temáticas abordadas nas monografias revela um equilíbrio
+notável entre pesquisas que exploram contextos típicos e atípicos, com especial atenção para a
+relação entre linguagem e autismo, o que enriquece a compreensão das complexidades envolvidas nessa área específica. Esses achados fornecem insights valiosos para o avanço do
+conhecimento sobre a Atenção Conjunta e suas interações com a linguagem e o
+desenvolvimento infantil.
+
+Na próxima seção, podemos observar que essas descobertas corroboram com a
+importância da Atenção Conjunta na compreensão do desenvolvimento da linguagem e da
+comunicação. Os estudos sobre Atenção Conjunta delineiam os estágios graduais pelos quais
+as crianças passam ao desenvolver essa habilidade essencial, desde a simples verificação até a
+referência compartilhada. Essa habilidade de compartilhar a atenção com os outros é
+fundamental para o desenvolvimento da linguagem e os bebês que a desenvolvem precocemente estão mais propensos a adquirir habilidades linguísticas de forma mais eficaz e
+precoce.
